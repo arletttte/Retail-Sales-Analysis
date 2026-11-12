@@ -81,4 +81,4 @@ Your Name
 
 Aspiring Data Analyst | Data Science Student
 
-GitHub: https://github.com/YOUR-USERNAME
+GitHub: https://github.com/arletttte
