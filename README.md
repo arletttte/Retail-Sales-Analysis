@@ -1,84 +1,95 @@
 # Retail Sales Analysis
 
 ## About the Project
-This project analyzes fictional retail sales data using Python and SQL. The goal is to understand sales performance, identify top-selling products, and explore revenue trends.
+
+This is a beginner-level data analysis project using a retail sales dataset. The goal of this project is to explore sales data, understand customer purchasing behavior, and identify sales trends using Python.
+
+## Objectives
+
+- Clean and prepare the sales dataset.
+- Analyze sales and revenue.
+- Understand customer behavior by age group and gender.
+- Compare sales across product categories.
+- Analyze monthly sales trends.
+- Create charts to present the results.
 
 ## Tools Used
+
 - Python
-- SQL
 - Pandas
-- NumPy
 - Matplotlib
-- Jupyter Notebook
-
-## Project Goals
-- Analyze total sales and revenue.
-- Identify top-performing products.
-- Compare sales across regions.
-- Analyze online and in-store purchases.
-- Explore monthly sales trends.
-- Calculate estimated profit.
-
-## Dataset
-The dataset contains 1,800 fictional retail transactions from 2024 to 2025.
-
-It includes:
-- Order ID
-- Order Date
-- Product
-- Category
-- Quantity
-- Unit Price
-- Discount
-- Revenue
-- Cost
-- Region
-- Sales Channel
-
-*Note: The dataset is synthetic and created for educational purposes.*
+- NumPy
+- Git and GitHub
 
 ## Project Structure
 
 ```text
-retail-sales-analysis/
+Retail-Sales-Analysis/
 │
 ├── data/
-├── notebooks/
-├── src/
-├── sql/
+│   └── retail_sales.csv
+│
 ├── outputs/
-├── tests/
+│   ├── CSV files
+│   └── Charts and visualizations
+│
+├── src/
+│   ├── data_cleaning.py
+│   ├── data_inspection.py
+│   └── eda_analysis.py
+│
+├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
 
-## Key Results
+## Project Steps
 
-- Total Orders: 1,800
-- Total Revenue: $183,472.72
-- Estimated Profit Margin: 45.1%
+1. **Data Inspection** – Checked the dataset and reviewed the available information.
+2. **Data Cleaning** – Cleaned and prepared the data for analysis.
+3. **Data Analysis** – Explored sales, revenue, customers, and product categories.
+4. **Data Visualization** – Created charts to better understand the results.
 
-*Results are based on fictional data.*
+## Analysis
+
+In this project, I analyzed:
+
+- Sales by gender
+- Revenue by age group
+- Number of customers by age group
+- Sales by product category
+- Quantity sold by category
+- Monthly revenue and transactions
 
 ## How to Run the Project
 
-1. Clone or download this repository.
-2. Install the required libraries:
+Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the analysis:
+Run the Python files:
 
 ```bash
-python src/run_analysis.py
+python src/data_inspection.py
+python src/data_cleaning.py
+python src/eda_analysis.py
 ```
+
+## What I Learned
+
+Through this project, I practiced:
+
+- Cleaning and organizing data using Python.
+- Working with Pandas.
+- Performing exploratory data analysis (EDA).
+- Creating charts using Matplotlib.
+- Understanding sales trends and customer behavior.
+- Using Git and GitHub to manage a project.
 
 ## Author
 
-Your Name
+Arlette V
 
-Aspiring Data Analyst | Data Science Student
-
-GitHub: https://github.com/arletttte
+Beginner Data Analyst | Learning Python, Data Analysis, and Data Visualization
